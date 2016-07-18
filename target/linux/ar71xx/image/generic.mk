@@ -298,6 +298,11 @@ define Device/oolite
 endef
 TARGET_DEVICES += oolite
 
+define Device/zsun-sdreader
+    DEVICE_PROFILE := ZSUN_SDREADER
+    CONSOLE := ttyATH0,115200
+endef
+TARGET_DEVICES += zsun-sdreader
 
 define Device/NBG6616
 	BOARDNAME = NBG6616
